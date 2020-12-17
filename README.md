@@ -1,4 +1,4 @@
-# trella
+# Trella
 
 Frontend to work in development
 - yarn install
