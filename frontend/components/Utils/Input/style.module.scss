@@ -1,0 +1,32 @@
+.form {
+  margin-top: 48px;
+  display: grid;
+  row-gap: 8px;
+  grid-template-rows: repeat(4, 1fr);
+}
+.addTask {
+  text-align: center;
+}
+.input {
+  border: none;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 8px 0;
+  font-size: 16px;
+  border-radius: 4px;
+  padding-left: 6px;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 16px;
+  &:hover {
+    cursor: pointer;
+    transition: 200ms;
+    background-color: rgb(75, 250, 59);
+    color: #fff;
+  }
+}
